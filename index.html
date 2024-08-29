@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button id="addTaskBtn">Add Task</button>
+            <!-- Add these elements near your existing task input box -->
+<input type="text" id="editTaskInput" placeholder="Edit task description">
+<button id="saveEditBtn">Save</button>
+
+        </div>
+        <div class="filters">
+            <button id="filterAll" class="filter-btn">All</button>
+            <button id="filterActive" class="filter-btn">Active</button>
+            <button id="filterCompleted" class="filter-btn">Completed</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
